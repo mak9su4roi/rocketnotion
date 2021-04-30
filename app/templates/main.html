@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4 col-md-4 col-4">
+
+            <form action="/upload" method="POST" enctype="multipart/form-data">
+                <div class="form-group">
+                    <h5> Select local image...</h5>
+                    <div class="custom-file">
+                        <input type="file" class="form-control" name="image" id="image" />
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-light">Upload</button>
+            </form>
+
+        </div>
+        <div class="col-lg-4 col-md-4 col-4">
+            <h5>Select image from Google Drive...</h5>
+
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col 12">
+                    <button type="button" class="btn btn-light" id="googleDriveChoose">Google Drive</button>
+                </div>
+                <div class="col-lg-6 col-md-6 col 12">
+                    <button type="button" class="btn btn-light" id="googleDriveSignOut">Sign out</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-lg-4 col-md-4 col-4">
+
+            <h5>Image preview</h5>
+            <img src="" id="image_test">
+
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="https://apis.google.com/js/api.js?onload=onApiLoad"></script>
+<script src="https://apis.google.com/js/client:plusone.js" type="application/javascript"></script>
+{% endblock %}
