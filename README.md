@@ -25,7 +25,7 @@ Service for Rocketbook-Notion integration
 
 * lauch notebook
 ```bash
-   jupyter-notebook
+   $ jupyter-notebook
 ```
 ## Plots generated with `altair`
 You can find the plot corresponding to specific notebook in `plot` folder
