@@ -19,7 +19,7 @@ Service for Rocketbook-Notion integration
 * unizp MNIST dataset
 ```bash
    $ cd data
-   $ unzip *
+   $ unzip *.zip
    $ cd ..
 ```
 
