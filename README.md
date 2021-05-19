@@ -23,6 +23,6 @@ Service for Rocketbook-Notion integration
 ```bash
    $ uvicorn main:app
 ```
-* `Notion Token` is obtained from cookie file from your notion workspace
+* `Notion Token` is obtained from cookie file (token_v2) from your notion workspace
 * `Dropbox folder` is a folder where your `.jpg` lecture notes are
 * `Add Notebook` should be provided a link to your notion notebook(page)
