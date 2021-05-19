@@ -16,7 +16,7 @@ Service for Rocketbook-Notion integration
    $ pip install -r requirements.txt
 ```
 
-* Set DROPBOX_TOKEN to your Dropbox API key. You can create your personal Dropbox API [here](https://www.dropbox.com/developers/apps). It should have following permissions:
+* Set DROPBOX_TOKEN to your Dropbox API key. You can create your personal Dropbox API key [here](https://www.dropbox.com/developers/apps). It should have following permissions:
 ![img](img/permissions.png)
 
 * launch app
