@@ -16,16 +16,13 @@ Service for Rocketbook-Notion integration
    $ pip install -r requirements.txt
 ```
 
-* unizp MNIST dataset
-```bash
-   $ cd data
-   $ unzip *.zip
-   $ cd ..
-```
+* Set DROPBOX_TOKEN to your Dropbox API key. You can create your personal Dropbox API [here](https://www.dropbox.com/developers/apps). It should have following permissions:
+![img](img/permissions.png)
 
-* lauch notebook
+* launch app
 ```bash
-   $ jupyter-notebook
+   $ uvicorn main:app
 ```
-## Plots generated with `altair`
-You can find the plot corresponding to specific notebook in `plot` folder
+* `Notion Token` is obtained from cookie file (token_v2) from your notion workspace
+* `Dropbox folder` is a folder where your `.jpg` lecture notes are
+* `Add Notebook` should be provided a link to your notion notebook(page)
