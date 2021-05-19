@@ -8,7 +8,8 @@ from notion_script import embed
 from notion.client import NotionClient
 
 
-DROPBOX_TOKEN = 'PlaceHolder'
+
+DROPBOX_TOKEN = 'PLACE_HOLDER'
 
 
 
