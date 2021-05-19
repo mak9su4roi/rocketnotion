@@ -3,17 +3,17 @@ Service for Rocketbook-Notion integration
 ## Setup to test notebook
 * create new virtualenv
 ```bash
-   $ virtualenv .venv
+   virtualenv .venv
 ```
 
 * activate virtualenv
 ```bash
-   $ source .venv/bin/activate
+   source .venv/bin/activate
 ```
 
 * load dependencies
 ```bash
-   $ pip install -r requirements.txt
+   pip install -r requirements.txt
 ```
 
 * Set DROPBOX_TOKEN to your Dropbox API key. You can create your personal Dropbox API key [here](https://www.dropbox.com/developers/apps). It should have following permissions:
@@ -21,7 +21,7 @@ Service for Rocketbook-Notion integration
 
 * launch app
 ```bash
-   $ uvicorn main:app --reload
+   uvicorn main:app --reload
 ```
 * `Notion Token` is obtained from cookie file (token_v2) from your notion workspace
 * `Dropbox folder` is a folder where your `.jpg` lecture notes are
